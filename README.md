@@ -23,7 +23,7 @@ Ensure you have the following installed before running the system:
 ### 1. Build and Start the Docker Environment
 Navigate to the project directory and build the Docker containers:
 ```sh
-cd /your-path/RR-Team-49-yadtq-yet-another-distributed-task-queue-/YADTQ
+cd /your-path/YADTQ
 
 docker compose up --build
 ```
@@ -35,7 +35,7 @@ docker ps
 ### 2. Scale Up the Worker Containers
 To scale the worker containers, run the following command:
 ```sh
-cd /your-path/RR-Team-49-yadtq-yet-another-distributed-task-queue-/YADTQ
+cd /your-path/YADTQ
 
 docker-compose up --scale worker=3
 ```
